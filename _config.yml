@@ -1,5 +1,7 @@
-url: colorice.github.io
-baseurl: 
+#url: colorice.github.io
+#baseurl: 
+
+source: colorice.github.io
 
 # Site settings
 title: Color Ice

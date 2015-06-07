@@ -1,7 +1,7 @@
-#url: colorice.github.io
-#baseurl: 
+url: colorice.github.io
+baseurl: ""
 
-source: colorice.github.io
+#source: colorice.github.io
 
 # Site settings
 title: Color Ice
@@ -67,6 +67,15 @@ address:
   - line: 3481 Melrose Place
   - line: Beverly Hills, CA 90210
 
+
+
+
+gems:
+  - jekyll-sitemap 
 # Build settings
-markdown: kramdown
-permalink: pretty
+#markdown: kramdown
+#permalink: pretty
+
+
+markdown: redcarpet
+permalink: /:title/

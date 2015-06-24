@@ -433,7 +433,14 @@ section h3.section-subheading {
     position: relative;
     padding: 0;
     list-style: none;
-    background-image: url(../img/header-bg.jpg);
+    background-image: url(../img/about/girl_bw.jpg);
+    background-attachment: scroll;
+    background-position: center center;
+    background-repeat: none;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
 }
 
 .timeline:before {
